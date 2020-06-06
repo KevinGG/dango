@@ -1,13 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { Card } from '@rmwc/card';
+import { App } from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Card>
-      Hello World.
-    </Card>
-  </React.StrictMode>,
+  <App />,
   document.getElementById('root')
 );
 
