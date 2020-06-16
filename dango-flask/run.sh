@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 
-export FLASK_APP=payment.py
+export FLASK_APP=index.py
 export FLASK_ENV=development
 
 # stripe test keys
